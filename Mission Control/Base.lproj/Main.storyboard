@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BLATT 3000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFB-c7-5rG">
+                                <rect key="frame" x="141" y="115" width="319" height="55"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="34"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="KILL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFT-DV-chA">
+                                <rect key="frame" x="141" y="272" width="319" height="55"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t0U-xV-Unt">
+                                <rect key="frame" x="276" y="335" width="51" height="31"/>
+                                <color key="onTintColor" red="1" green="0.0" blue="0.041046944600000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="onKillSwitched:" destination="BYZ-38-t0r" eventType="valueChanged" id="GaD-eC-0I1"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55H-6H-7XH">
+                                <rect key="frame" x="20" y="374" width="560" height="161"/>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="t0U-xV-Unt" firstAttribute="top" secondItem="VFT-DV-chA" secondAttribute="bottom" constant="8" id="4eW-Md-qU2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="55H-6H-7XH" secondAttribute="trailing" id="Hny-r5-qwH"/>
+                            <constraint firstItem="sFB-c7-5rG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="95" id="KFF-Qw-ZJd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="55H-6H-7XH" secondAttribute="bottom" constant="20" id="M12-pj-Wrt"/>
+                            <constraint firstItem="VFT-DV-chA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TIS-Wr-XkU"/>
+                            <constraint firstItem="VFT-DV-chA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pkj-z7-LL6"/>
+                            <constraint firstItem="55H-6H-7XH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uVZ-Be-Pqy"/>
+                            <constraint firstItem="sFB-c7-5rG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vQD-df-nc1"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="55H-6H-7XH" secondAttribute="leading" id="xeA-XK-dND"/>
+                            <constraint firstItem="t0U-xV-Unt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ykL-Di-wqa"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="killSwitch" destination="t0U-xV-Unt" id="0X3-id-bLX"/>
+                        <outlet property="messageLabel" destination="55H-6H-7XH" id="KDF-z5-xfS"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="PUi-HR-kO2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="352"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042C6F4C1D5DEE5500E71AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C6F4B1D5DEE5500E71AAE /* main.m */; };
+		042C6F4F1D5DEE5500E71AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C6F4E1D5DEE5500E71AAE /* AppDelegate.m */; };
+		042C6F521D5DEE5500E71AAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C6F511D5DEE5500E71AAE /* ViewController.m */; };
+		042C6F551D5DEE5500E71AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042C6F531D5DEE5500E71AAE /* Main.storyboard */; };
+		042C6F571D5DEE5500E71AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042C6F561D5DEE5500E71AAE /* Assets.xcassets */; };
+		042C6F5A1D5DEE5500E71AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042C6F581D5DEE5500E71AAE /* LaunchScreen.storyboard */; };
+		042C6F641D5DF04E00E71AAE /* peertalk in Resources */ = {isa = PBXBuildFile; fileRef = 042C6F631D5DF04E00E71AAE /* peertalk */; };
+		042C6F681D5DF35600E71AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042C6F671D5DF35600E71AAE /* Foundation.framework */; };
+		042C6F6A1D5DF35D00E71AAE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042C6F691D5DF35D00E71AAE /* CoreData.framework */; };
+		042C6F781D5E0E9100E71AAE /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C6F751D5E0E9100E71AAE /* PTChannel.m */; };
+		042C6F791D5E0E9100E71AAE /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C6F761D5E0E9100E71AAE /* PTProtocol.m */; };
+		042C6F7A1D5E0E9100E71AAE /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C6F771D5E0E9100E71AAE /* PTUSBHub.m */; };
+		042C6F7E1D5E277C00E71AAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042C6F7D1D5E277C00E71AAE /* GoogleService-Info.plist */; };
+		2E7EA2A47F18923531B1D115 /* Pods_Mission_Control.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71684329D58D3134418EFBBA /* Pods_Mission_Control.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042C6F471D5DEE5500E71AAE /* Mission Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042C6F4B1D5DEE5500E71AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042C6F4D1D5DEE5500E71AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042C6F4E1D5DEE5500E71AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042C6F501D5DEE5500E71AAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042C6F511D5DEE5500E71AAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042C6F541D5DEE5500E71AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042C6F561D5DEE5500E71AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042C6F591D5DEE5500E71AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042C6F5B1D5DEE5500E71AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042C6F631D5DF04E00E71AAE /* peertalk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = peertalk; sourceTree = "<group>"; };
+		042C6F651D5DF07600E71AAE /* MissionControlProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissionControlProtocol.h; sourceTree = "<group>"; };
+		042C6F671D5DF35600E71AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		042C6F691D5DF35D00E71AAE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		042C6F751D5E0E9100E71AAE /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTChannel.m; path = "Mission Control/peertalk/PTChannel.m"; sourceTree = "<group>"; };
+		042C6F761D5E0E9100E71AAE /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTProtocol.m; path = "Mission Control/peertalk/PTProtocol.m"; sourceTree = "<group>"; };
+		042C6F771D5E0E9100E71AAE /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTUSBHub.m; path = "Mission Control/peertalk/PTUSBHub.m"; sourceTree = "<group>"; };
+		042C6F7D1D5E277C00E71AAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31F0CE6E5E6C9C50DE171BB0 /* Pods-Mission Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mission Control.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mission Control/Pods-Mission Control.release.xcconfig"; sourceTree = "<group>"; };
+		71684329D58D3134418EFBBA /* Pods_Mission_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mission_Control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5558B694938D1D4DE506B48 /* Pods-Mission Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mission Control.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mission Control/Pods-Mission Control.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042C6F441D5DEE5500E71AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C6F6A1D5DF35D00E71AAE /* CoreData.framework in Frameworks */,
+				042C6F681D5DF35600E71AAE /* Foundation.framework in Frameworks */,
+				2E7EA2A47F18923531B1D115 /* Pods_Mission_Control.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042C6F3E1D5DEE5500E71AAE = {
+			isa = PBXGroup;
+			children = (
+				042C6F7D1D5E277C00E71AAE /* GoogleService-Info.plist */,
+				042C6F751D5E0E9100E71AAE /* PTChannel.m */,
+				042C6F761D5E0E9100E71AAE /* PTProtocol.m */,
+				042C6F771D5E0E9100E71AAE /* PTUSBHub.m */,
+				042C6F491D5DEE5500E71AAE /* Mission Control */,
+				042C6F481D5DEE5500E71AAE /* Products */,
+				474401B10701C026C14D7E56 /* Pods */,
+				C26B6D95270CB40878A04A0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042C6F481D5DEE5500E71AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042C6F471D5DEE5500E71AAE /* Mission Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042C6F491D5DEE5500E71AAE /* Mission Control */ = {
+			isa = PBXGroup;
+			children = (
+				042C6F4D1D5DEE5500E71AAE /* AppDelegate.h */,
+				042C6F4E1D5DEE5500E71AAE /* AppDelegate.m */,
+				042C6F501D5DEE5500E71AAE /* ViewController.h */,
+				042C6F511D5DEE5500E71AAE /* ViewController.m */,
+				042C6F531D5DEE5500E71AAE /* Main.storyboard */,
+				042C6F561D5DEE5500E71AAE /* Assets.xcassets */,
+				042C6F581D5DEE5500E71AAE /* LaunchScreen.storyboard */,
+				042C6F5B1D5DEE5500E71AAE /* Info.plist */,
+				042C6F4A1D5DEE5500E71AAE /* Supporting Files */,
+				042C6F651D5DF07600E71AAE /* MissionControlProtocol.h */,
+				042C6F631D5DF04E00E71AAE /* peertalk */,
+			);
+			path = "Mission Control";
+			sourceTree = "<group>";
+		};
+		042C6F4A1D5DEE5500E71AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042C6F4B1D5DEE5500E71AAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		474401B10701C026C14D7E56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5558B694938D1D4DE506B48 /* Pods-Mission Control.debug.xcconfig */,
+				31F0CE6E5E6C9C50DE171BB0 /* Pods-Mission Control.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C26B6D95270CB40878A04A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042C6F691D5DF35D00E71AAE /* CoreData.framework */,
+				042C6F671D5DF35600E71AAE /* Foundation.framework */,
+				71684329D58D3134418EFBBA /* Pods_Mission_Control.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042C6F461D5DEE5500E71AAE /* Mission Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042C6F5E1D5DEE5500E71AAE /* Build configuration list for PBXNativeTarget "Mission Control" */;
+			buildPhases = (
+				2D878702981A746A86A0EA6E /* [CP] Check Pods Manifest.lock */,
+				042C6F431D5DEE5500E71AAE /* Sources */,
+				042C6F441D5DEE5500E71AAE /* Frameworks */,
+				042C6F451D5DEE5500E71AAE /* Resources */,
+				253DE64CDCC07072B1D7A74C /* [CP] Embed Pods Frameworks */,
+				E7E0CF71F96DC887E2B77E68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mission Control";
+			productName = "Mission Control";
+			productReference = 042C6F471D5DEE5500E71AAE /* Mission Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042C6F3F1D5DEE5500E71AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andreas Dzialocha";
+				TargetAttributes = {
+					042C6F461D5DEE5500E71AAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 042C6F421D5DEE5500E71AAE /* Build configuration list for PBXProject "Mission Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042C6F3E1D5DEE5500E71AAE;
+			productRefGroup = 042C6F481D5DEE5500E71AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042C6F461D5DEE5500E71AAE /* Mission Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042C6F451D5DEE5500E71AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C6F641D5DF04E00E71AAE /* peertalk in Resources */,
+				042C6F5A1D5DEE5500E71AAE /* LaunchScreen.storyboard in Resources */,
+				042C6F7E1D5E277C00E71AAE /* GoogleService-Info.plist in Resources */,
+				042C6F571D5DEE5500E71AAE /* Assets.xcassets in Resources */,
+				042C6F551D5DEE5500E71AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		253DE64CDCC07072B1D7A74C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mission Control/Pods-Mission Control-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D878702981A746A86A0EA6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E0CF71F96DC887E2B77E68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mission Control/Pods-Mission Control-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042C6F431D5DEE5500E71AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C6F521D5DEE5500E71AAE /* ViewController.m in Sources */,
+				042C6F4F1D5DEE5500E71AAE /* AppDelegate.m in Sources */,
+				042C6F4C1D5DEE5500E71AAE /* main.m in Sources */,
+				042C6F781D5E0E9100E71AAE /* PTChannel.m in Sources */,
+				042C6F7A1D5E0E9100E71AAE /* PTUSBHub.m in Sources */,
+				042C6F791D5E0E9100E71AAE /* PTProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042C6F531D5DEE5500E71AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042C6F541D5DEE5500E71AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042C6F581D5DEE5500E71AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042C6F591D5DEE5500E71AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042C6F5C1D5DEE5500E71AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042C6F5D1D5DEE5500E71AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042C6F5F1D5DEE5500E71AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5558B694938D1D4DE506B48 /* Pods-Mission Control.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mission Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marmorkuchen.Mission-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042C6F601D5DEE5500E71AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F0CE6E5E6C9C50DE171BB0 /* Pods-Mission Control.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mission Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marmorkuchen.Mission-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042C6F421D5DEE5500E71AAE /* Build configuration list for PBXProject "Mission Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C6F5C1D5DEE5500E71AAE /* Debug */,
+				042C6F5D1D5DEE5500E71AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042C6F5E1D5DEE5500E71AAE /* Build configuration list for PBXNativeTarget "Mission Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C6F5F1D5DEE5500E71AAE /* Debug */,
+				042C6F601D5DEE5500E71AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042C6F3F1D5DEE5500E71AAE /* Project object */;
+}
